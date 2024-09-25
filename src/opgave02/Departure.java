@@ -12,4 +12,8 @@ public class Departure {
         this.arrival = arrival;
         this.departure = departure;
     }
+
+    public void print(){
+        System.out.println(perron + " " + destination + " " + arrival + " " + departure);
+    }
 }
